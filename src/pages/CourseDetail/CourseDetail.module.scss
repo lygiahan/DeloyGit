@@ -1,0 +1,43 @@
+.whatlearn {
+    .whatlearn_left {
+        width: 80%;
+        margin: auto;
+        margin-top: 4%;
+        background-color: whitesmoke;
+        padding: 20px;
+    }
+    .whatlearn_right {
+        width: 70%;
+        margin: auto;
+        height: auto;
+        margin-top: -30%;
+        box-shadow: 0 0 5px 6px rgba(20, 23, 28, .1), 0 3px 1px 0 rgba(20, 23, 28, .1) !important;
+        .img {
+            width: 100%;
+        }
+        .whatlearn_right_content {
+            width: 80%;
+            margin: auto;
+            margin-top: 5%;
+            .whatlearn_right_content_button {
+                background-color: #ec5252;
+                width: 100%;
+                padding: 25px 0;
+                line-height: 20%;
+                font-size: 18px;
+                font-weight: bold;
+                color: white;
+                margin: 20% 0;
+            }
+        }
+    }
+    .whatlearn_right_bottom {
+        width: 70%;
+        margin: auto;
+        box-shadow: 0 0 5px 6px rgba(20, 23, 28, .1), 0 3px 1px 0 rgba(20, 23, 28, .1) !important;
+        .whatlearn_right_bottom_content {
+            width: 70%;
+            margin: auto;
+        }
+    }
+}

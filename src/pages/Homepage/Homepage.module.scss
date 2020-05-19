@@ -1,0 +1,24 @@
+.content {
+    background-color: #fff;
+    .treamer {
+        // src="//laz-img-cdn.alicdn.com/images/ims-web/TB1WNBrrlr0gK0jSZFnXXbRRXXa.jpg_1200x1200.jpg"
+        background-image: url('https://img-a.udemycdn.com/notices/home_banner/image/67719501-fa21-498c-8435-934506aed21b.jpg');
+        height: 500px;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        background-size: cover;
+        h2 {
+            font-size: 20px;
+        }
+    }
+    .yousay {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 70px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}

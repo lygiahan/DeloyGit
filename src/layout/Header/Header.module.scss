@@ -1,0 +1,45 @@
+.header {
+    background-color: #fff;
+    box-shadow: 0 0 3px 6px rgba(20, 23, 28, .1), 0 3px 1px 0 rgba(20, 23, 28, .1) !important;
+    margin-bottom: 3px;
+    height: auto !important;
+    .header_row {
+        align-items: center;
+        height: 80px;
+        .header_input {
+            padding-left: 6%;
+            font-size: 25px;
+            outline: none !important;
+            padding: 30px;
+            margin-top: 10px;
+        }
+        .header_button_dangnhap {
+            font-size: 15px;
+            padding: 10px 6px;
+            height: auto;
+            font-weight: bold;
+        }
+        .header_button_dangky {
+            background-color: #ec5252;
+            color: white;
+            font-weight: bold;
+            font-size: 15px;
+            padding: 10px 10px;
+            height: auto;
+        }
+    }
+    .header_open_drawer {
+        text-align: right;
+        font-size: 40px;
+        display: none;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .header_row {
+        display: none;
+    }
+    .header_open_drawer {
+        display: block !important;
+    }
+}

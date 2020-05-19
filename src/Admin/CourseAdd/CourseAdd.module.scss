@@ -1,0 +1,33 @@
+.form_content {
+    width: 100%;
+    margin: auto;
+    padding: 3%;
+    background-color: #fff;
+    height: auto;
+    .fiel {
+        width: 100%;
+        height: 50px;
+        animation-name: han;
+        transition: 0.5s linear;
+        font-weight: bold;
+        font-size: 18px;
+        padding-left: 5%;
+        padding-top: 10px;
+        margin: 20px 0;
+        outline: none;
+        &:focus {
+            height: 50px;
+            padding-bottom: 20px;
+            font-weight: normal;
+        }
+    }
+    .form_content_button {
+        background-color: #1DA57A !important;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 8px 15px;
+    }
+}
+
+@keyframes han {}

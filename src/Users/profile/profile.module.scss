@@ -1,0 +1,21 @@
+.tong {
+    width: 100%;
+    margin: auto;
+    border: 1px solid #29303b;
+    .tong_left {
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .tong {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .tong {
+        width: 100%;
+        .tong_left {}
+    }
+}
